@@ -1,0 +1,801 @@
+{
+	"info": {
+		"_postman_id": "3fb9e2c8-7a66-484b-8877-ac56c7e6375a",
+		"name": "Cars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ElectricVehicle",
+			"item": [
+				{
+					"name": "CRUD",
+					"item": [
+						{
+							"name": "GetOneElectricVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllElectricVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PostElectricVehicle",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PutElectricVehicle",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteOneElectricVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteAllElectricVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/electricvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"electricvehicle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ParamsElectricVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/electricvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"electricvehicle"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Hyundai Kona",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Renault Fluence",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "verde azulado",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "verde",
+									"disabled": true
+								},
+								{
+									"key": "numDoors",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "airAC",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "typeEngine",
+									"value": "eléctrico",
+									"disabled": true
+								},
+								{
+									"key": "onOff",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "loadingTime",
+									"value": "12",
+									"disabled": true
+								},
+								{
+									"key": "loadingTime",
+									"value": "14",
+									"disabled": true
+								},
+								{
+									"key": "charges",
+									"value": "8",
+									"disabled": true
+								},
+								{
+									"key": "charges",
+									"value": "10",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HybridVehicle",
+			"item": [
+				{
+					"name": "CRUD",
+					"item": [
+						{
+							"name": "GetOneHybridVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllHybridVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PostHybridVehicle",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PutHybridVehicle",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteOneHybridVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteAllHybridVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/hybridvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"hybridvehicle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ParamsHybridVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/hybridvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hybridvehicle"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Volvo XC60",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Mercedes Clase A",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "gris",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "blanco",
+									"disabled": true
+								},
+								{
+									"key": "numDoors",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "airAC",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "typeEngine",
+									"value": "microhíbrido",
+									"disabled": true
+								},
+								{
+									"key": "typeEngine",
+									"value": "híbrido",
+									"disabled": true
+								},
+								{
+									"key": "onOff",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "hydrogenTank",
+									"value": "Knauf Automotive",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CombustionVehicle",
+			"item": [
+				{
+					"name": "CRUD",
+					"item": [
+						{
+							"name": "GetOneCombustionVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllCombustionVehicle",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PostCombustionVehicle",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PutCombustionVehicle",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteOneCombustionVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteAllCombustionVehicle",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/combustionvehicle",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"combustionvehicle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ParamsCombustionVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/combustionvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"combustionvehicle"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Audi A3",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Ford Pluma",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "azul",
+									"disabled": true
+								},
+								{
+									"key": "colour",
+									"value": "rojo",
+									"disabled": true
+								},
+								{
+									"key": "numDoors",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "airAc",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "typeEngine",
+									"value": "combustión",
+									"disabled": true
+								},
+								{
+									"key": "onOff",
+									"value": "true",
+									"disabled": true
+								},
+								{
+									"key": "injection",
+									"value": "continua",
+									"disabled": true
+								},
+								{
+									"key": "injection",
+									"value": "simultánea",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Welcome",
+			"item": [
+				{
+					"name": "Hello",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/hello",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hello"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VehicleController",
+			"item": [
+				{
+					"name": "VehicleController",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CombustionVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vehicle/combustionvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vehicle",
+								"combustionvehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ElectricVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vehicle/electricvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vehicle",
+								"electricvehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HybridVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/vehicle/hybridvehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"vehicle",
+								"hybridvehicle"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
