@@ -26,15 +26,6 @@ pipeline {
                 }
             }
         }
-        stage('Site') {
-            steps {
-                sh 'mvn site'
-            }
-        }
-        stage('Sonar') {
-           steps {
-               sh 'mvn verify sonar:sonar -Dsonar.projectKey=alansastre_m3-01-maven -Dsonar.organization=alansastre -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=6136e70b0e12ca0541d807cc501786ada66ec2cf -Dsonar.branch.name=master'
-           }
-        }
+      
     }
 }
