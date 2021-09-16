@@ -20,6 +20,7 @@
 		<java.version>16</java.version>
 		<maven.compiler.source>14</maven.compiler.source>
 		<maven.compiler.target>14</maven.compiler.target>
+		<sonar.projectKey>MarinaMadrid_m1-08-jersey-coche-test-maven</sonar.projectKey>
 		<sonar.organization>marinamadrid</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
