@@ -5,10 +5,24 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class InjectionTest {
-
+	
+	Injection injection = new Injection("continua");
+	
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void getInjectionTest() {
+		assertEquals("continua", injection.getInjection());
+	}
+	
+	@Test
+	void setInjectionTest() {
+		injection.setInjection("simultánea");
+		assertEquals("simultánea", injection.getInjection());
+	}
+	
+	@Test
+	void toStringInjectionTest() {
+		String injectionText = "Injection [injection=" + "continua" + "]";
+		assertEquals(injectionText, injection.toString());
 	}
 
 }
