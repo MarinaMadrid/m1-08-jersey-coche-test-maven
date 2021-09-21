@@ -17,5 +17,10 @@ public class Injection {
 	public void setInjection(String injection) {
 		this.injection = injection;
 	}
+
+	@Override
+	public String toString() {
+		return "Injection [injection=" + injection + "]";
+	}
 	
 }

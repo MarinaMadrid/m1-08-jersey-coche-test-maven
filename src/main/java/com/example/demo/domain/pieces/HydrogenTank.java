@@ -18,4 +18,9 @@ public class HydrogenTank {
 		this.hydrogenTank = hydrogenTank;
 	}
 
+	@Override
+	public String toString() {
+		return "HydrogenTank [hydrogenTank=" + hydrogenTank + "]";
+	}
+
 }

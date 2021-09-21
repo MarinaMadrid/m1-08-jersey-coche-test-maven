@@ -18,4 +18,10 @@ public class AirConditioning {
 		this.statusAirConditioning = statusAirConditioning;
 	}
 
+	@Override
+	public String toString() {
+		return "AirConditioning [statusAirConditioning=" + statusAirConditioning + "]";
+	}
+
+	
 }

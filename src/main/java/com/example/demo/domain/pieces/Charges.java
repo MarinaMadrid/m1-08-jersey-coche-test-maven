@@ -18,4 +18,11 @@ public class Charges {
 		this.charges = charges;
 	}
 
+	@Override
+	public String toString() {
+		return "Charges [charges=" + charges + "]";
+	}
+	
+	
+
 }
